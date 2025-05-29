@@ -13,6 +13,7 @@ public class ChatMessageDTO {
     private String senderName;
     private Long roomId;
     private LocalDateTime timestamp;
+    private Long num;
     
     // Constructors
     public ChatMessageDTO() {}
